@@ -1,14 +1,26 @@
-# segmentation
+[//]: # (Image References)
+
+
+[image1]: https://github.com/abhismatrix1/segmentation/blob/master/media/6_label.png "ORIGINAL"
+[image2]: https://github.com/abhismatrix1/segmentation/blob/master/media/output_label_CRF.jpg "CRF"
+[image3]: https://github.com/abhismatrix1/segmentation/blob/master/media/output_label_Unet.jpg "UNET"
+
+
+# Image Segmentation
 Image segmentation using UNET and CRF
 
 ###Introduction
 This project is for image segmentation using UNET model and Conditional random field modeling.
 
+### Sample result from model trained on very small dataset
+
+![Trained Agent][image1]
+
 ### Getting Started
 
 This contains jupyter notebook be be used on google colab in combination with google drive for minimum install
 
-1. Clone [this repository](https://github.com/abhismatrix1/segmentation.git) in your local machine
+1. Clone [current repository](https://github.com/abhismatrix1/segmentation.git) in your local machine
 2. Upload the segmentation folder (repo) on Google Drive at parent location i.e. in My Drive
 3. Open segmentation.ipynb from drive using Google colab
 4. Follow the steps in the notebook to train and predict labels
@@ -21,7 +33,7 @@ Segmantation folder contains pretrained weights. So you can do prediction withou
 
 
 ### Predict on your new image other than validation set
-Follow the step to predict on your image. Step-9 in notebook is used for your image prediction. Please run all above steps before this step. 
+Follow the below steps to predict on your image. Step-9 in notebook is used for your image prediction. Please run all above steps before this step. 
 
 1. Upload your jpg image on google drive inside segmentation folder at location 'My Drive/segmentation/myimages/' 
 2. In Step-9 of notebook set 'image_name' variable to your image name eg. 'myimage.jpg'
