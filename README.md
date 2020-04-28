@@ -13,15 +13,17 @@ Image segmentation using UNET and CRF
 This project is for image segmentation using UNET model and Conditional random field modeling.
 
 ### Sample result from model trained on very small dataset
-Annotated label
+1. Annotated label
 
 <a href="url"><img src="/media/6_label.png" align="center" height="224" width="448" ></a>
 
-UNET predicted label
+
+2. UNET predicted label
 
 <a href="url"><img src="/media/output_label_Unet.jpg" align="center" height="224" width="448" ></a>
 
-CRF predicted label
+
+3. CRF predicted label
 
 <a href="url"><img src="/media/output_label_CRF.jpg" align="center" height="224" width="448" ></a>
 
