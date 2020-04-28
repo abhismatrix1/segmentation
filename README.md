@@ -14,12 +14,15 @@ This project is for image segmentation using UNET model and Conditional random f
 
 ### Sample result from model trained on very small dataset
 Annotated label
+
 <a href="url"><img src="/media/6_label.png" align="center" height="224" width="448" ></a>
 
 UNET predicted label
+
 <a href="url"><img src="/media/output_label_Unet.jpg" align="center" height="224" width="448" ></a>
 
 CRF predicted label
+
 <a href="url"><img src="/media/output_label_CRF.jpg" align="center" height="224" width="448" ></a>
 
 ### Getting Started
