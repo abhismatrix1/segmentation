@@ -9,7 +9,7 @@
 # Image Segmentation
 Image segmentation using UNET and CRF
 
-###Introduction
+### Introduction
 This project is for image segmentation using UNET model and Conditional random field modeling.
 
 ### Sample result from model trained on very small dataset
