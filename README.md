@@ -50,6 +50,6 @@ Follow the below steps to predict on your image. Step-9 in notebook is used for 
 2. In Step-9 of notebook set 'image_name' variable to your image name eg. 'myimage.jpg'
 3. Execute the cell and get prediction. 
 4. It will give result using pretrained weights.
-5. If you want to use currently trained weights the set model_path = 'model_best.hdf5' in step-9.
+5. If you want to use currently trained weights the set use_current_model = True in step-9.
 
 
